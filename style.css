@@ -1,0 +1,158 @@
+* 
+{
+  font-family: "Arial","Roboto","Open Sans";
+  font-size: 13px;
+ }
+
+ * {
+  outline: 0;
+  }
+
+
+.recherche>input {
+  display:flex;
+  align-items:center;
+  height: 35px;
+  margin: auto;
+  width: 500px;
+  border : 1px solid #d6d5d2; 
+  border-radius: 20px; 
+  background-image: url('image/loupe.png');
+    background-position: 10px 10px; 
+    padding-left: 40px;
+    background-size: 25px; 
+    background-repeat: no-repeat; 
+  
+    
+
+   
+}
+
+
+ 
+#hautdroite {
+  list-style-type: none; 
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+}
+
+#hautdroite>li {
+  margin-right:30px;
+} 
+
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+#logo>img {
+  
+  margin: 50px auto auto auto;
+  width: 500px;
+  height: 235px;
+  
+  
+}
+
+
+
+.recherche {
+  display:flex;
+  
+}
+
+
+a:link {
+  color: black;
+  text-decoration:none;
+}
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: black;;
+  text-decoration:underline}
+
+#bouton1>button{
+  width:170px;
+  height:50px;
+  background-color: #f2f5f3;
+  font-size:15px;
+  color:#444;
+  border-radius: 3px;
+  border :2px solid #e6ede8;
+}
+
+
+#bouton1 {
+  list-style-type: none; 
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+
+  
+}
+
+
+.btn2 {
+  margin-left:40px;
+}
+
+
+#bas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: baseline;
+  align-items: flex-end;
+  list-style: none;
+  margin-top: 0px;
+  border: 1px solid #d6d5d2;
+  border-bottom-width: none;
+  width: 1380px;
+  height: 40px;
+  background-color: #f1f1f1;
+}
+
+
+#bas>li {
+  margin-left: 40px;
+  font-size: 15px;
+
+}
+
+#espace {
+  width: 150px;
+}
+
+#basgauche {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+#france {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: baseline;
+  align-items: flex-end;
+  list-style: none;
+  margin-top: 173px;
+  margin-bottom: 0px;
+  border: 1px solid #d6d5d2;
+  width: 1380px;
+  border-left-width: none;
+  height: 40px;
+  background-color: #f1f1f1;
+}
+
+#france>li {
+  margin-left: 40px;
+  font-size: 15px;
+  
+}
